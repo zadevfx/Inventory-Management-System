@@ -1,7 +1,7 @@
 import mysql.connector
-
+#password and database spaces are blank as you need to put in your own password and database name
 def connect():
-    con = mysql.connector.connect(host = "localhost",user = "root",password = "674526",database = "inventory")
+    con = mysql.connector.connect(host = "localhost",user = "root",password = "",database = "")
     return con
 
 def add_product():
